@@ -15,6 +15,6 @@
 <IfModule mod_proxy.c>
   ProxyPreserveHost On
   ProxyRequests Off
-  ProxyPass /api http://10.122.11.40/api
-  ProxyPassReverse /api http://10.122.11.40/api
+  ProxyPass /api http://10.122.11.40:4099/api
+  ProxyPassReverse /api http://10.122.11.40:4099/api
 </IfModule>
