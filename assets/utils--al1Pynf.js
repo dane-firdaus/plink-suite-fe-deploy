@@ -1,0 +1,1 @@
+const o=a=>({Va:"Virtual Account",Qris:"QRIS",Voa:"Visa On Arrival",Deb:"Debitin",Alfa:"Alfamart",Idm:"Indomaret"})[a]||a,r=a=>Math.round(Number(a||0)),n=(a,t="id-ID")=>r(a).toLocaleString(t,{maximumFractionDigits:0});export{n as f,o as m};
